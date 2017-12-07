@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.2
+Type=Application
+Name=8cell OCR
+Comment=Clasificacion documental con OCR
+Exec=python 8cellocr
+Icon=8cellocr
+Terminal=false
+X-MultipleArgs=false
+Categories=Office;
+StartupNotify=true
+Icon=8cellocr
