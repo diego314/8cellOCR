@@ -1,11 +1,6 @@
 # 8cellOCR
-Document classiffier using OCR
+OCR document classiffier using the library
 
-El problema que trataba de solucionar éste programa era la automatizacin del escaneo y clasificación de una gran cantidad de cuestionarios recibidos en papel, marcados con un identificador.
+The problem that this program was trying to solve was the automation of the scanning and classification of a large number of documents received on paper, each marked with an identifier.
 
-Este programa sirve para clasificar en pdf un gran número de documentos marcados con un identificador en una zona concreta. El identificador puede estar situado sólo en la primera página del documento o bien en todas ellas.
-
-Este programa lee una carpeta con imagenes, y busca un numero
-
-- uno
-- tres
+This program reads each scanned file and uses the identifier to create a single pdf file with as many pages as needed for each document. The biggest hurdle the program is designed to solve is the fact that the scanned documents have normaly very low quality (sometimes are scans of a printed document which was scanned from a printed... you get the idea) and therefore some (a lot) flexibility is needed in detecting the identifier, and there are also tools to fix multiple documents incorrectly classified as only one, check for incorrectly recognized identifiers, etc. Such identifier may be located only on the first page of the document (which makes things easier) or on all of them.
